@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+fitz
+faiss-cpu
+sentence-transformers
+transformers
+openai
