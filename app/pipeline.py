@@ -1,6 +1,6 @@
 import fitz # PyMuPDF
 from typing import List
-from .llm_parser import LLMParser
+from app.llm_parser import LLMParser
 from .vector_db import EmbeddingSearch
 from .clause_matcher import ClauseMatcher
 from .logic_evaluator import LogicEvaluator
