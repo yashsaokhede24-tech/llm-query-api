@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Header
 from pydantic import BaseModel
 from typing import List
 import requests
-from .pipeline import RetrievalPipeline
+from app.pipeline import RetrievalPipeline
 
 app = FastAPI(
     title="LLM Query–Retrieval System",
