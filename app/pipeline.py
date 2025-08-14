@@ -1,4 +1,5 @@
 import fitz # PyMuPDF
+from app.pipeline import RetrievalPipeline
 from typing import List
 from .llm_parser import LLMParser
 from .vector_db import EmbeddingSearch
